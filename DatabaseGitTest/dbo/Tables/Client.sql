@@ -11,7 +11,7 @@
     [TelephoneNumber] NVARCHAR (20)  NULL,
     [Street1]         NVARCHAR (100) NULL,
     [Street2]         NVARCHAR (100) NULL,
-    [City]            NVARCHAR (50) NULL,
+    [City]            NVARCHAR (20) NULL,
     [ZipCode]         NVARCHAR (15)  NULL,
     [Longitude]       FLOAT (53)     NULL,
     [Latitude]        FLOAT (53)     NULL,
