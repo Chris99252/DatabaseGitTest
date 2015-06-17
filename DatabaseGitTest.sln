@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DatabaseGitTest", "DatabaseGitTest\DatabaseGitTest.sqlproj", "{411B04DB-649B-4249-AF08-25FDB17E84CA}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Databasedb01", "Databasedb01\Databasedb01.sqlproj", "{55F71690-45DF-488E-9ACB-568B3430DE94}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,12 @@ Global
 		{411B04DB-649B-4249-AF08-25FDB17E84CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{411B04DB-649B-4249-AF08-25FDB17E84CA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{411B04DB-649B-4249-AF08-25FDB17E84CA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{55F71690-45DF-488E-9ACB-568B3430DE94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55F71690-45DF-488E-9ACB-568B3430DE94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55F71690-45DF-488E-9ACB-568B3430DE94}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{55F71690-45DF-488E-9ACB-568B3430DE94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55F71690-45DF-488E-9ACB-568B3430DE94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55F71690-45DF-488E-9ACB-568B3430DE94}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,16 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <Name>DatabaseGitTest</Name>
+    <Name>Databasedb01</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
-    <ProjectGuid>{411b04db-649b-4249-af08-25fdb17e84ca}</ProjectGuid>
+    <ProjectGuid>{55f71690-45df-488e-9acb-568b3430de94}</ProjectGuid>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql110DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
-    <RootNamespace>DatabaseGitTest</RootNamespace>
-    <AssemblyName>DatabaseGitTest</AssemblyName>
+    <RootNamespace>Databasedb01</RootNamespace>
+    <AssemblyName>Databasedb01</AssemblyName>
     <ModelCollation>1033,CI</ModelCollation>
     <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
     <DeployToDatabase>True</DeployToDatabase>
@@ -61,29 +61,8 @@
     <Folder Include="Properties" />
     <Folder Include="dbo\" />
     <Folder Include="dbo\Tables\" />
-    <Folder Include="dbo\Stored Procedures\" />
-    <Folder Include="dbo\Views" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="dbo\Tables\OrderLine.sql" />
-    <Build Include="dbo\Tables\Client.sql" />
-    <Build Include="dbo\Tables\Occupation.sql" />
-    <Build Include="dbo\Tables\Product.sql" />
-    <Build Include="dbo\Tables\Order.sql" />
-    <Build Include="dbo\Views\View_Client.sql" />
-    <Build Include="dbo\Views\View_db01_Cust.sql" />
-  </ItemGroup>
-  <ItemGroup>
-    <ArtifactReference Include="..\Databasedb01\bin\Debug\Databasedb01.dacpac">
-      <HintPath>..\Databasedb01\bin\Debug\Databasedb01.dacpac</HintPath>
-      <SuppressMissingDependenciesErrors>False</SuppressMissingDependenciesErrors>
-      <DatabaseSqlCmdVariable>db01</DatabaseSqlCmdVariable>
-    </ArtifactReference>
-  </ItemGroup>
-  <ItemGroup>
-    <SqlCmdVariable Include="db01">
-      <DefaultValue>db01</DefaultValue>
-      <Value>$(SqlCmdVar__1)</Value>
-    </SqlCmdVariable>
+    <Build Include="dbo\Tables\Cust.sql" />
   </ItemGroup>
 </Project>
