@@ -16,6 +16,7 @@
     [Longitude]       FLOAT (53)     NULL,
     [Latitude]        FLOAT (53)     NULL,
     [Notes]           NVARCHAR (MAX) NULL,
+    [Age] INT NOT NULL DEFAULT 0, 
     CONSTRAINT [pk_ClientId] PRIMARY KEY CLUSTERED ([ClientId] ASC),
     CONSTRAINT [FK_Client_Occupation] FOREIGN KEY ([OccupationId]) REFERENCES [dbo].[Occupation] ([OccupationId])
 );
