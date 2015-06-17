@@ -62,6 +62,7 @@
     <Folder Include="dbo\" />
     <Folder Include="dbo\Tables\" />
     <Folder Include="dbo\Stored Procedures\" />
+    <Folder Include="dbo\Views" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\OrderLine.sql" />
@@ -69,5 +70,6 @@
     <Build Include="dbo\Tables\Occupation.sql" />
     <Build Include="dbo\Tables\Product.sql" />
     <Build Include="dbo\Tables\Order.sql" />
+    <Build Include="dbo\Views\View_Client.sql" />
   </ItemGroup>
 </Project>
